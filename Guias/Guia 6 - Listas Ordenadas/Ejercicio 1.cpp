@@ -59,9 +59,10 @@ int criterioAlumno(Alumno a, Alumno b){
 
 }
 
+
 int main(){
 
-Nodo<Alumno>* lista = nullptr;
+Nodo<Alumno>* listaA = nullptr;
 
 const int dimVecSel {9};
 const int dimVecBaj {3};
@@ -70,14 +71,34 @@ Alumno vecSel[dimVecSel]{"Maria", 721, 8.4, "Pedro", 847, 7.2, "Ana", 614, 9.1, 
 
 Alumno vecBaja[dimVecBaj]{"Pedro", 847, 7.2, "Ramon", 418, 8.4, "Unai", 325, 8.1};
 
+cout << "------------" << "PUNTO A" << "------------" << endl;
 
 for(int i = 0; i < dimVecSel; i++){
 
-    insertar(vecSel[i], lista, criterioAlumno);
+    insertar(vecSel[i], listaA, criterioAlumno);
 }
 
-mostrar(lista);
+mostrar(listaA);
 
+cout << "------------" << "PUNTO B" << "------------" << endl;
+
+Nodo<Alumno>* listaB = nullptr;
+
+for(int i = 0; i < dimVecBaj; i++){
+
+    agregar(listaB, vecBaja[i]);
+}
+
+mostrar(listaB);
+
+cout << "------------" << "PUNTO C" << "------------" << endl;
+
+for(Nodo<Alumno>* auxiliar = listaB; auxiliar != nullptr; auxiliar = auxiliar -> sig){ //Recorre la lista de los no seleccionados
+
+    borrar(auxiliar -> dato, listaA, criterioAlumno); //Para cada elemento de la lista de los no seleccionados, la borra de la lista de los seleccionados
+}
+
+mostrar(listaA);
 
 }
 
