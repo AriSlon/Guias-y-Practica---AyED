@@ -1,0 +1,8 @@
+01-Ordenamiento-Seleccion:
+Algoritmo de ordenamiento por selección, primero se plantea la idea, luego el algortimo como se lo presenta habitualmente y por último una optimización (discutible).
+02-Ordenamiento-Burbujeo:
+Algoritmo de ordenamiento por burbujeo, primero se plantea la idea, luego una mejora intermedia, luego el algoritmo tal cual se lo suele presentar y por último una optimización del mismo.
+03-Ordenamiento-Insercion-Shell:
+Muestra el algoritmo de inserción canónico, y luego una versión optimizada, que también se conoce como inserción binaria. Las dos versiones de inserción binaria son similares, los cambios son los "estéticos" para acercarlo más al algoritmo original.
+Luego se muestra el algoritmo shell, es su versión original y en la versión más optimizada que se conoce hoy dia.
+

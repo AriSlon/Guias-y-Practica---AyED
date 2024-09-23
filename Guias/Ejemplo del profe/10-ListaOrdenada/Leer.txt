@@ -1,0 +1,10 @@
+Los 3 proyectos son muy similares, de hecho solo cambina las funciones de insertar y extraer. El resto es igual en los 3 casos.
+
+Variantes
+
+01-ListaOrdenadaAntAct: por Anterior Actual, es la versión más básica e intuitiva. Queda un código fácil de seguir y entender, más allá del uso de variables adicionales y de tener que comprobar casos particulares
+
+02-ListaOrdenadaTradic: mejora en cuanto que no usa dos punteros, pero sigue controlando casos particulares. Es una de las versiones más difundidas. Apuntando a un nodo, hace las comprobaciones (de criterio) usando el nodo siguiente, esto le evita tener que guardar un puntero al anterior. insertar es bastante claro, borrar no tanto, tiene que comprobar varios casos particulares
+
+03-ListaOrdenadaPuntPunt: es la versión más avanzada, es elegante y corta, pero no es fácil seguirla y entenderla. Al usar un puntero a puntero se independiza de los casos particulares, lo que permite un código compacto.
+

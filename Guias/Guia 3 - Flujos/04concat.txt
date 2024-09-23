@@ -1,0 +1,9 @@
+Erase una vez un archivo
+con un montón de datos
+=======================
+y otro archivo con nros
+1
+2
+3
+4
+Fin

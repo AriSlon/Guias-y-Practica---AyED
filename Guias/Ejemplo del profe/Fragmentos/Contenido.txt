@@ -1,0 +1,3 @@
+pilacola.hpp tiene los templates necesarios para resolver problemas de pilas y colas. Incluye buscar en lista sin orden (buscar_lso()) y mostrar.
+listas.hpp tiene todo la anterior y los templates para manejar listas ordenadas, con clave única o repetida. Incluye un buscar que supone que la lista está ordenada (buscar())
+

@@ -1,0 +1,10 @@
+01-Sobrecarga
+Se muestra que se puede poner el mismo nombre a dos o más funciones diferentes (dado que el tipo de dato de los parámetros difiere). A esto se le llama sobrecarga.
+Vemos también como se puede desambiguar cual de las fuciones usar.
+02-Plantilla
+Similar, pero en lugar de escribir cada función damos una plantilla con la que el compilador generará el fuente de las funciones según el tipo de dato que se indique.
+03-OrdenarCrit
+Función de ordenamiento, pero agregando una función como parámetro que da el criterio de comparación
+04-OrdenarPlanCrit
+Similar al anterior pero agregando plantillas.
+Notar que con string perfectametne podría haber usado los templates de reales, ya que, salvo por el tipo de dato, todas las operaciones son las mismas.

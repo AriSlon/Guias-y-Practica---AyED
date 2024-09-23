@@ -1,0 +1,25 @@
+01-StdNros:
+Proyecto simple donde ingreso nros. como el while corta cuando no puede leer más nros, puedo cortar ingresando una letra
+02-StdPalabras:
+similar al anterior pero con strings. El problema es que cualquier cosa que ponga puede ser tomando como un string, por eso no queda más alternativa que cortar con EOF (ctrl+d en linux y mac, ctrl+z en windows, y casi seguro un enter adicional)
+03-StdNrosPal:
+Es la combinación de los dos primeros, vemos como seguir leyendo después de una condición de error.
+04-ArchNros:
+Similar al primero, pero leyendo desde una archivo de texto
+05-ArchPal:
+Similar la segundo, pero leyendo desde una archivo de texto
+06-ArchPalNros:
+Leer desde archivo, primero palabras y después números
+07-ArchNombres:
+Lee nombres, lo hace leyendo de una línea a la vez.
+08-ArchPares:
+Lee pares de nro y cadena
+09-ArchCSV
+Similar, lee triplas nro socio, nombre, monto donación. Las triplas están separadas por comas
+10-ArchTamaño:
+Calcula el tamaño de un archivo
+11-ArchPosicion:
+Guarda los valores de una experimento y luego vuelve para indicar cuantos son en el encabezado
+
+
+

@@ -1,0 +1,8 @@
+01-BusquedaLineal:
+Busca un elemento dentro de un vector. Se separan los casos de si el vector está o no ordenado.
+02-BusquedaBinaria:
+Este algoritmo presupone el vector ordenado, pero es más eficiente que la búsqueda lineal.
+03-BusquedasInsertLineal
+Modificamos la búsqueda (en vector ordenado) para detectar el punto donde debería insertarse un elemento y mantener el vector ordenado.
+04-BusquedasInsertBinaria
+Similar al anterior, pero modificando el algoritmo de búsqueda binaria

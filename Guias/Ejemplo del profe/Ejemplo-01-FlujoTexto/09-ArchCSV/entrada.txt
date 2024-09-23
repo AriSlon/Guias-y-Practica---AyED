@@ -1,0 +1,3 @@
+5,Jose Fernandez,500.00
+12,Mabel Perez,475.25
+7,Manuel Gracia,522.50

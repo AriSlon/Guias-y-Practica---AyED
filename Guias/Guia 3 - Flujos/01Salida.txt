@@ -1,0 +1,9 @@
+Leyendo números del archivo
+Leido: 8
+Leido: 22
+Leido: 55
+Leido: 16
+Cantidad: 4
+Sumatoria: 101
+Promedio: 25.25
+
