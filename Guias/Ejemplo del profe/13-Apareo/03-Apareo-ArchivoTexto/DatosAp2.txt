@@ -1,0 +1,8 @@
+Ayacucho	Vento	52
+Chivilcoy	Cronos	48
+Chivilcoy	Vento	25
+Mercedes	Vento	13
+Necochea	Vento	116
+Necochea	Vento	122
+Saladillo	Corolla	96
+Saladillo	Cronos	81

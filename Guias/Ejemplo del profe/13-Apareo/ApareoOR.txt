@@ -1,0 +1,11 @@
+Inicialización (variables, apertura de archivos, etc)
+MIENTRAS Haya datos en alguna de las secuencias
+	SI (agotada Sec2 O (no agotada Sec1 Y dato-Sec1.clave < dato-Sec2.clave)) ENTONCES
+		Insertar dato-Sec1 en Secuencia resultado
+		Avanzar secuencia 1
+	SI NO
+		Insertar dato-Sec2 en Secuencia resultado
+		Avanzar secuencia 2
+	FIN SI
+FIN MIENTRAS
+

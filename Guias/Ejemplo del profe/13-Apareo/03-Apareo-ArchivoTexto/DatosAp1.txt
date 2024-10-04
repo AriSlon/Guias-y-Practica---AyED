@@ -1,0 +1,12 @@
+Ayacucho	Cronos	134
+Ayacucho	Vento	138
+Chivilcoy	Corolla	130
+Mercedes	Corolla	92
+Mercedes	Corolla	30
+Mercedes	Cronos	99
+Mercedes	Vento	20
+Necochea	Corolla	146
+Necochea	Cronos	115
+Suipacha	Corolla	72
+Suipacha	Corolla	107
+Suipacha	Vento	73

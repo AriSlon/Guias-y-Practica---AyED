@@ -1,0 +1,8 @@
+Se dan ejemplos para todas las implementaciones de secuencias vistas en el curso:
+Arreglo
+Lista encadenada
+Archivo: de texto y binario.
+
+Para cada caso se dan las dos versiones, con Y y con O
+En el primer caso la acción es mostrar por pantalla
+En el segundo caso la acción es armar una secuencia nueva con la unión ordenada de las secuencias originales.

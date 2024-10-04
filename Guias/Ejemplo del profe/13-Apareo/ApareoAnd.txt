@@ -1,0 +1,19 @@
+Inicialización (variables, apertura de archivos, etc)
+MIENTRAS Haya datos en ambas secuencias
+	SI (dato-Sec1.clave < dato-Sec2.clave) ENTONCES
+		Insertar dato-Sec1 en Secuencia resultado
+		Avanzar secuencia 1
+	SI NO
+		Insertar dato-Sec2 en Secuencia resultado
+		Avanzar secuencia 2
+	FIN SI
+FIN MIENTRAS
+//Agotar secuencia que no haya terminado
+MIENTRAS Haya datos en secuencia 1
+	Insertar dato-Sec1 en Secuencia resultado
+	Avanzar secuencia 1
+FIN MIENTRAS
+MIENTRAS Haya datos en secuencia 2
+	Insertar dato-Sec2 en Secuencia resultado
+	Avanzar secuencia 2
+FIN MIENTRAS

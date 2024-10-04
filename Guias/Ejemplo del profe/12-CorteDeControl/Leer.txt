@@ -1,0 +1,8 @@
+Se dan ejemplos para todas las implementaciones de secuencias vistas en el curso:
+Arreglo
+Lista encadenada
+Archivo: de texto y binario.
+
+Notar que con una sobrecarga en archivo de texto el fuente es igual al de archivo binario.
+El archivo CorteDeControl.txt tiene el seudocódigo, independiente del tipo de secuencia que se use.
+

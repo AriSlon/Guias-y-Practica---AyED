@@ -1,0 +1,23 @@
+Inicialización (variables, apertura de archivos, etc)
+TotalesNivel0 a cero
+MIENTRAS Haya datos
+	TotalesNivel1 a cero
+	ClaveNivel1 = dato.Clave1
+	MIENTRAS Haya datos Y dato.clave1 == ClaveNivel1
+		TotalesNivel2 a cero
+		ClaveNivel2 = dato.Clave2
+		MIENTRAS Haya datos Y dato.clave1 == ClaveNivel1  Y dato.clave2 == ClaveNivel2
+			{Repetir para más niveles si hace falta}
+			Acciones para el dato, por ejemplo listarlo
+			TotalesNivel2 += dato.camposASumar //se acumulan los campos necesarios en el nivel más interno
+			Pasar a siguiente elemento en la secuencia //se avanza en el nivel más interno
+		FIN MIENTRAS
+		Acciones para TotalesNivel2 como mostrarlos o grabarlos
+		TotalesNivel1 += TotalesNivel2 
+	FIN MIENTRAS
+	Acciones para TotalesNivel1 como mostrarlos o grabarlos
+	TotalesNivel0 += TotalesNivel1
+FIN MIENTRAS
+Acciones para TotalesNivel0 como mostrarlos o grabarlos
+
+Nota: Puede no estar ordenado en tanto las claves estén agrupadas
