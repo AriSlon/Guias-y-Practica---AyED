@@ -1,0 +1,4 @@
+El código de listas circulares está en:
+listas_circdid.hpp: es la versión literal de la explicación conceptual. El puntero a la lista apunta al primer elememto.
+listas_circ.hpp: es la versión donde el puntero a la lista apunta al último elemento, permitiendo así simplificar y optimizar el código.
+Ambos son funcionalmente equivalentes y se puede cambiar cuál usar en la directiva include sin que cambie el comportamiento del programa.

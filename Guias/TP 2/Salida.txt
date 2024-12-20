@@ -1,0 +1,72 @@
+Stock Inicial
+Producto   Cantidad
+Amoladora    993
+Arandela    1175
+Martillo     873
+Pala         970
+Serrucho    1285
+Taladro      638
+Tester      1398
+
+Ingrese un nuevo pedido:
+Producto: Martillo
+Cantidad: 400
+Producto: Serrucho
+Cantidad: 400
+Producto: 
+
+Pedido despachado
+Producto: Martillo - Cantidad Total: 400  - Detalle de los lotes:
+MAR100  18
+MAR093  20
+MAR056  47
+MAR054  17
+MAR049  125
+MAR046  113
+MAR042  36
+MAR039  24
+
+Producto: Serrucho - Cantidad Total: 400  - Detalle de los lotes:
+SER098  47
+SER095  138
+SER088  72
+SER083  120
+SER080  23
+
+Ingrese un nuevo pedido:
+Producto: Serrucho
+Cantidad: 200
+Producto: 
+
+Pedido despachado
+Producto: Serrucho - Cantidad Total: 200  - Detalle de los lotes:
+SER080  27
+SER076  16
+SER075  113
+SER069  44
+
+Ingrese un nuevo pedido:
+Producto: Pala
+Cantidad: 1000
+Producto: Arandela
+Cantidad: 1
+Producto: Pinza
+Cantidad: 421
+Producto: 
+
+Pedido rechazado. Listado de faltantes
+Pala    30
+Pinza   421
+
+Ingrese un nuevo pedido:
+
+
+Producto: Stock Final
+Producto   Cantidad
+Amoladora    993
+Arandela    1175
+Martillo     473
+Pala         970
+Serrucho     685
+Taladro      638
+Tester      1398

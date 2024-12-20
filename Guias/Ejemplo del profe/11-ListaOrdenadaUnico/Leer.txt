@@ -1,0 +1,3 @@
+La diferencia con lista ordenanda es que se admite un único elemento de acuerdo a la clave de ordenamiento. Si elemento a insertar NO se encuentra en la lista, la función lo inserta y devuelve un puntero al nodo que se creo para insertarlo. Si el valor a insertar ya se encuentra en la lista, se descarta el elemento nuevo y devuelve un puntero al nodo del elemento con misma clave que el que se quería insertar y que ya se encontraba en la lista
+
+Las variantes son la mismas que en el caso anterior: con dos punteros, con uno solo y con puntero a puntero. La función nueva la llamamos insertar_unico, las que ya teníamos las puse en un listasord.hpp

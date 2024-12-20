@@ -39,54 +39,44 @@ int main()
 	agregar(lista, {"Suipacha", "Corolla", 107});
 	agregar(lista, {"Suipacha", "Vento", 73});
 
-	Nodo<Venta>* p = lista; //Inicialización
-	int autos_total = 0;//TotalesNivel0 a cero
+	Nodo<Venta>* p = lista; 
+	int autos_total = 0;
 	int vtas_total = 0;
 
-	while (p != nullptr) {//MIENTRAS Haya datos
+	while (p != nullptr) {
 
-		int autos_ciudad = 0;// TotalesNivel1 a cero
+		int autos_ciudad = 0;
 		int vtas_ciudad = 0;
-		string ciudad_anterior = p->dato.ciudad; // ClaveNivel1 = dato.Clave1
-
-		// MIENTRAS Haya datos Y dato.clave1 == ClaveNivel1
+		string ciudad_anterior = p->dato.ciudad; 
 
 		while (p != nullptr && ciudad_anterior == p->dato.ciudad) {
 
-			int autos_modelo = 0; // TotalesNivel2 a cero
+			int autos_modelo = 0; 
 			int vtas_modelo = 0;
-			string modelo_anterior = p->dato.modelo; // ClaveNivel2 = dato.Clave2
-			// MIENTRAS Haya datos Y dato.clave1 == ClaveNivel1
-			//                     Y dato.clave2 == ClaveNivel2
+			string modelo_anterior = p->dato.modelo; 
 
 			while (p != nullptr && ciudad_anterior == p->dato.ciudad && modelo_anterior == p->dato.modelo) {
 
-				cout << p->dato << endl; // Acciones para el dato
-				// TotalesNivel2 += dato.camposASumar
+				cout << p->dato << endl; 
 				autos_modelo += p->dato.cant;
 				++vtas_modelo;
-				p = p->sig;// Pasar a siguiente elemento en la secuencia
-				
+				p = p->sig; 
+
 			}
 
-			//Acciones para TotalesNivel2
 			cout << "\t\t" << modelo_anterior << "\t" << autos_modelo << "\t(" << vtas_modelo << " ventas)" << endl;
-			// TotalesNivel1 += TotalesNivel2
 			autos_ciudad += autos_modelo;
 			vtas_ciudad += vtas_modelo;
 
 		}
 
-		// Acciones para TotalesNivel1
 		cout << ciudad_anterior << "\t====\t" << autos_ciudad << "\t(" << vtas_ciudad << " ventas)" << endl << endl;
-		// TotalesNivel0 += TotalesNivel1
 		autos_total += autos_ciudad;
 		vtas_total += vtas_ciudad;
 
 	}
-	// Acciones para TotalesNivel0
-	cout << "Total" << "\t============\t" << autos_total << "\t(" << vtas_total << " ventas)" << endl;
-	
-	return 0;
 
+	cout << "Total" << "\t============\t" << autos_total << "\t(" << vtas_total << " ventas)" << endl;
+	return 0;
+    
 }

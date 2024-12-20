@@ -1,0 +1,85 @@
+
+NroDock: 0 - Cantidad de despachos: 11
+Producto  Cantidad
+Amoladora    269
+Arandela     194
+Pala         154
+Serrucho      38
+Tester        45
+
+NroDock: 1 - Cantidad de despachos: 13
+Producto  Cantidad
+Amoladora     71
+Arandela      62
+Martillo     163
+Pala          32
+Serrucho      73
+Taladro      202
+Tester        84
+
+NroDock: 2 - Cantidad de despachos: 16
+Producto  Cantidad
+Amoladora     53
+Martillo     110
+Pala         352
+Serrucho     617
+Taladro      127
+Tester       267
+
+NroDock: 3 - Cantidad de despachos: 12
+Producto  Cantidad
+Amoladora     90
+Arandela      95
+Martillo      86
+Pala         208
+Serrucho      16
+Taladro       57
+Tester       223
+
+NroDock: 4 - Cantidad de despachos: 12
+Producto  Cantidad
+Amoladora    258
+Arandela      73
+Martillo      93
+Serrucho      75
+Taladro      137
+Tester        84
+
+NroDock: 5 - Cantidad de despachos: 14
+Producto  Cantidad
+Amoladora    120
+Arandela     384
+Martillo     255
+Pala          90
+Serrucho     107
+Taladro      115
+Tester       216
+
+NroDock: 6 - Cantidad de despachos: 10
+Producto  Cantidad
+Amoladora    124
+Arandela     298
+Martillo     119
+Serrucho     237
+Tester       136
+
+NroDock: 7 - Cantidad de despachos: 12
+Producto  Cantidad
+Amoladora      8
+Arandela      69
+Martillo      47
+Pala         134
+Serrucho     122
+Tester       343
+
+El dock con menos despachos es el: 6 con 10 despachos.
+
+El producto con mayor cantidad despachada en este dock es: 
+
+Arandela     298
+
+Lista de despachos
+Provincia          Cantidad
+Corrientes            60
+Santa Fe             134
+Tierra del Fuego     104
